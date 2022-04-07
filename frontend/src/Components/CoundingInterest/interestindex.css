@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&display=swap');
+.formcss {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    max-width: 500px;
+}
+
+.cardcss {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+.inputField {
+    margin-top: -14px;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.table-success {
+    background-color: white;
+}
+
+p {
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.tab {
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+@media only screen and (max-width:600px) {
+    .formcss {
+        margin-top: -35px;
+    }
+    .cardcssinfo {
+        margin-top: -25px;
+    }
+    .gap-2 {
+        margin-bottom: 20px;
+    }
+}

@@ -1,0 +1,14 @@
+.cardcss {
+    width: 30rem;
+    height: 30rem;
+}
+
+@media only screen and (max-width:600px) {
+    .cardcss {
+        width: 100%;
+        height: 100%;
+    }
+    .intaclass {
+        height: 45rem;
+    }
+}

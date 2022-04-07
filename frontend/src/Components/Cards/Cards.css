@@ -1,0 +1,22 @@
+.cardform {
+    margin-top: 50px;
+}
+
+.button {
+    margin-left: 10px;
+}
+
+@media only screen and (max-width:600px) {
+    .button {
+        justify-content: center;
+        align-items: center;
+        margin-left: 40px;
+        margin-top: 10px;
+    }
+    .button_two {
+        justify-content: center;
+        align-items: center;
+        margin-left: 6px;
+        margin-top: 10px;
+    }
+}

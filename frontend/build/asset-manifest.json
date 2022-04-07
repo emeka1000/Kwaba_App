@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/static/css/main.5023fd95.css",
+    "main.js": "/static/js/main.02a05fb6.js",
+    "static/media/firstone.png": "/static/media/firstone.fdff0c7cf7f74b8746bd.png",
+    "static/media/monkeyrod.png": "/static/media/monkeyrod.088324b00da3d83cabfa.png",
+    "static/media/World.jpg": "/static/media/World.9928f15196c87f4fb4b5.jpg",
+    "static/media/headerpng.png": "/static/media/headerpng.9077aa62b786e7ff79ee.png",
+    "static/media/welcomepage.jfif": "/static/media/welcomepage.117635c49308ee728d4d.jfif",
+    "index.html": "/index.html",
+    "main.5023fd95.css.map": "/static/css/main.5023fd95.css.map",
+    "main.02a05fb6.js.map": "/static/js/main.02a05fb6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5023fd95.css",
+    "static/js/main.02a05fb6.js"
+  ]
+}

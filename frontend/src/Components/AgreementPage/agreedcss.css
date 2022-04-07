@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&display=swap');
+.cardcss {
+    width: 30rem;
+    height: 30rem;
+}
+
+.p1agreed {
+    font-size: x-large;
+    text-align: justify;
+    max-width: 80%;
+    /* align-items: center; */
+    /* justify-content: center; */
+    margin-left: 10%;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.h1agreed {
+    text-align: center;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+@media only screen and (max-width:600px) {
+    .cardcss {
+        width: 22rem;
+        height: 29rem;
+    }
+    .h1agreed {
+        text-align: center;
+    }
+    .p1agreed {
+        font-size: small;
+        margin-bottom: 50px;
+    }
+}

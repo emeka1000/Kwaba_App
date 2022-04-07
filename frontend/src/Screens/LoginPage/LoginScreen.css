@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&display=swap');
+.main {
+    min-height: 80vh;
+    height: 100%;
+    width: 100%;
+    font-family: 'Nunito Sans', sans-serif;
+    /* background-color: #091FB6; */
+    /* background-image: url("../../Components/img/background.jfif"); */
+}
+
+.h1log {
+    margin-top: 130px;
+    margin-bottom: 20px;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.mb-3 {
+    max-width: 50%;
+}
+
+.cardform {
+    margin-top: 15px;
+}
+
+.colcontrol {
+    align-items: center;
+    justify-content: center;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+
+/* 
+.text {
+    textw
+} */
+
+.buttons {
+    background-color: white;
+    border-color: black;
+    color: black;
+    max-width: 40%;
+}
+
+.buttons:hover {
+    background-image: "linear-gradient(to top, #99ccff 50%, #ffffff 100%)",
+}
+
+.btn-primary:hover {
+    color: "";
+}
+
+.btn-primary:hover {
+    color: "";
+}
+
+a {
+    color: black;
+}
+
+a:hover {
+    color: black;
+}
+
+a::after {
+    color: black;
+}
+
+.colcontrollog {
+    align-items: center;
+    justify-content: center;
+    width: 75%;
+}
+
+.imagelog {
+    display: flex;
+    margin-top: 80px;
+    margin-left: 15px;
+    width: 20%;
+    align-items: center;
+    justify-content: center;
+}
+
+.buttons {
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+
+.buttons:hover {
+    background-color: rgba(251, 251, 251, 0.2);
+    color: black;
+}
+
+.button_two {
+    margin-left: 50px;
+    text-decoration: none;
+}
+
+@media only screen and (max-width:500px) {
+    .buttons {
+        background-color: white;
+        border-color: black;
+        color: black;
+    }
+    .imagelog {
+        display: flex;
+        margin-top: 90px;
+        margin-left: 40px;
+        width: 44%;
+        align-items: center;
+        justify-content: center;
+    }
+    .button_two {
+        justify-content: center;
+        align-items: center;
+        margin-left: 2px;
+        margin-top: 15px;
+    }
+    .buttonContainer {
+        display: flex;
+        flex-direction: column;
+    }
+    .mb-3 {
+        max-width: 80%;
+    }
+}

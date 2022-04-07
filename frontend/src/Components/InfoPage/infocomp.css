@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&display=swap');
+.btn .btn-outline-success {
+    font-size: x-small;
+    height: 5rem;
+}
+
+.inputbox {
+    display: flex;
+    flex-direction: column;
+    max-width: 25%;
+    margin-left: 82px;
+    height: 0px;
+    margin-bottom: 100px;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.fontstuff {
+    margin-top: 10px;
+    padding: 20px;
+    width: 625px;
+    background-color: beige;
+    color: black;
+}
+
+
+/* .fontstuff:active {
+    background-color: black;
+}
+
+.fontstuff:checked {
+    background-color: black;
+} */
+
+.inbox {
+    max-width: 80%;
+    margin-left: 10%;
+}
+
+@media only screen and (max-width:600px) {
+    .inputbox {
+        height: 0px;
+        font-size: x-small;
+        max-width: 80%;
+        margin-left: 10%;
+        margin-top: -26px;
+        margin-bottom: 70px;
+    }
+    .fontstuff {
+        font-size: xx-small;
+        height: 30px;
+        width: 100%;
+    }
+    .inbox {
+        max-width: 80%;
+        margin-left: 10%;
+        margin-top: -14px;
+    }
+}

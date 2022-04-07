@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&display=swap');
+.cardcss {
+    width: 30rem;
+    height: 30rem;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.css-1rn30mb-MuiCircularProgress-root {
+    color: #00b74a;
+}
+
+.call {
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.pbardiv {
+    display: flex;
+    justify-content: right;
+    margin: 10px;
+    margin-right: 79px;
+}
+
+.pbardivagree {
+    display: flex;
+    justify-content: right;
+    margin: 10px;
+    /* margin-right: -494px; */
+}
+
+.test {
+    margin-left: 79px;
+}
+
+.test1 {
+    margin-top: 110px;
+    margin-left: 79px;
+}
+
+.pro {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 0px;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.acstat {
+    text-align: center;
+}
+
+.pagenum {
+    margin-right: 10px;
+    margin-top: 5px;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.proagree {
+    margin-right: 61px;
+    margin-top: 125px;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.headman {
+    margin-left: 79px;
+    margin-top: 0px;
+    margin-bottom: 24px;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.cardlike {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin-top: -103px;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+@media only screen and (max-width:600px) {
+    .cardcssinfo {
+        height: 35rem;
+        margin-top: 10px;
+    }
+    .test1 {
+        margin-left: 10%;
+        margin-top: 88px;
+    }
+    .acstat {
+        font-size: small;
+        margin-top: -10px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .proagree {
+        margin-right: 0px;
+    }
+    .headman {
+        margin-left: 15px;
+    }
+    .pbardiv {
+        margin-right: 20px;
+    }
+    .test {
+        margin-left: 10%;
+    }
+    .phoneheadman {
+        font-size: 20px;
+        margin-top: 20px;
+    }
+    /* .pbardivagree {
+        margin-right: -100px;
+    } */
+    .proagree {
+        margin-right: 10px;
+    }
+    .pagenum {
+        font-size: 10px;
+    }
+    .lionden {
+        margin-bottom: 45px;
+    }
+}

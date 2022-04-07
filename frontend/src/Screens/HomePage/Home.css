@@ -1,0 +1,292 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&display=swap');
+.home {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    font-family: 'Nunito Sans', sans-serif;
+    /* margin-bottom: 50px;
+    height: 40rem; */
+}
+
+.rot {
+    margin-top: 10px;
+}
+
+.devops {
+    display: flex;
+    justify-content: center;
+    margin-top: 34px;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.stepcard {
+    max-width: 60%;
+    margin-left: 20%;
+    height: 740px;
+    margin-bottom: 25px;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+#buto {
+    margin-left: 45%;
+}
+
+.sec {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sec2 {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.homehead {
+    margin-left: 20px;
+    margin-top: 40px;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.homehead3 {
+    margin-left: 191px;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.homehead2 {
+    margin-right: 20px;
+    margin-top: 40px;
+    text-align: right;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+    border-radius: 20%;
+}
+
+.img-fluid:hover {
+    background-color: black;
+}
+
+.img-fluid::selection {
+    background-color: black;
+}
+
+.rownow {
+    display: flex;
+    margin-top: 0px;
+}
+
+.MuiStepIcon-text {
+    color: "green";
+}
+
+.homecard {
+    padding: 50px;
+}
+
+.butt {
+    display: flex;
+    width: 100%;
+    padding: 20px;
+    margin-top: 25px;
+    justify-content: space-around;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.button2home {
+    margin-top: 10px;
+}
+
+.button {
+    text-decoration: none;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.table {
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.table1 {
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+.phome1 {
+    margin-top: 20px;
+    max-width: 1350px;
+}
+
+.phome2 {
+    margin-top: 20px;
+    max-width: 1280px;
+}
+
+.bgb {
+    width: 100%;
+    max-width: 80%;
+    height: 500px;
+    transition: width 0.25s,
+}
+
+.bgb:hover {
+    width: 110%;
+}
+
+.bgb2 {
+    width: 100%;
+    max-width: 80%;
+    height: 550px;
+    transition: width 0.25s,
+}
+
+.bgb2:hover {
+    width: 110%;
+}
+
+.homehead {
+    text-align: left;
+}
+
+.homehead {
+    text-align: left;
+}
+
+.iconContainer {
+    display: flex;
+    justify-content: space-around;
+}
+
+.section {
+    text-align: center;
+}
+
+.steppage {
+    height: 823px;
+    margin-bottom: 201px;
+    font-family: 'Nunito Sans', sans-serif !important;
+}
+
+.tabtop {
+    max-width: 500px;
+    margin-right: 100px;
+}
+
+.lose {
+    margin-top: 130px;
+}
+
+.butcon {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+@media only screen and (max-width:800px) {
+    .home {
+        margin-top: 0px;
+        overflow-x: hidden;
+    }
+    .butt {
+        flex-direction: column;
+    }
+    .stepcard {
+        max-width: 80%;
+        margin-left: 10%;
+        height: 610px;
+        margin-bottom: 25px;
+    }
+    .homehead {
+        font-size: x-large;
+        margin-top: 120px;
+    }
+    .devops {
+        margin-top: -27px;
+    }
+    .iconContainer {
+        flex-direction: initial;
+        justify-content: space-around;
+    }
+    img>.mask:hover {
+        background-color: "rgba(0, 0, 0, 0.6)";
+    }
+    a:active {
+        background-color: inherit;
+        color: inherit;
+    }
+    .img-fluid:hover {
+        background-color: inherit;
+        color: inherit;
+    }
+    .section {
+        margin-top: -10px;
+        margin-right: 10px;
+    }
+    .homecard {
+        padding: 15px;
+    }
+    .table1 {
+        text-align: center;
+    }
+    .tabrow {
+        margin-right: 20px;
+    }
+    .bgb {
+        margin-right: 500px;
+    }
+    .sec {
+        margin-top: -24px;
+        display: grid;
+        justify-content: normal;
+        max-width: 100%;
+    }
+    .sec2 {
+        margin-top: -7px;
+    }
+    .bgb {
+        width: 80%;
+        max-width: 100%;
+        height: 314px;
+        margin-top: -6px;
+        display: none;
+    }
+    .bgb2 {
+        display: none;
+    }
+    .phome1 {
+        font-size: small;
+    }
+    .tabtop {
+        max-width: 84px;
+        margin-right: 156px;
+    }
+    .homehead2 {
+        font-size: x-large;
+        margin-top: 50px;
+    }
+    .phome2 {
+        font-size: small;
+    }
+    .homehead3 {
+        margin-left: -5px;
+        margin-bottom: 50px
+    }
+    .trans {
+        text-align: center;
+        width: 390px;
+    }
+    #buto {
+        margin-left: 40%;
+    }
+}

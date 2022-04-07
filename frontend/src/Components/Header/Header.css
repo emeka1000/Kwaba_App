@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&display=swap');
+.headerbg {
+    background-color: #ffffff;
+    border-bottom-style: groove;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    position: fixed;
+    /* Set the navbar to fixed position */
+    top: 0;
+    /* Position the navbar at the top of the page */
+    width: 100%;
+    /* Full width */
+    overflow: hidden;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.footerbg {
+    background-color: #ffffff;
+    border-top-style: groove;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    position: fixed;
+    /* Set the navbar to fixed position */
+    bottom: 0;
+    /* Position the navbar at the top of the page */
+    width: 100%;
+    /* Full width */
+    overflow: hidden;
+    font-family: 'Nunito Sans', sans-serif;
+    margin-top: 30px;
+}
+
+.footerbgwel {
+    background-color: #ffffff;
+    border-top-style: groove;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    /* Set the navbar to fixed position */
+    bottom: 0;
+    /* Position the navbar at the top of the page */
+    width: 100%;
+    /* Full width */
+    overflow: hidden;
+    font-family: 'Nunito Sans', sans-serif;
+    margin-top: 10px;
+}
+
+.text-center {
+    margin-top: -15px;
+}
+
+.profile {
+    margin-right: 0px;
+}
+
+.headtext {
+    margin-top: 5px;
+    margin-left: 10px;
+}

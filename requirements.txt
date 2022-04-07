@@ -1,0 +1,5 @@
+# nodemon ===== backend
+# .env =====  backend
+# react-bootstrap ===== frontend
+# 
+# 

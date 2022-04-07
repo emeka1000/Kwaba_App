@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&display=swap');
+.main {
+    /* min-height: 93vh;
+    height: 100%;
+    width: 100%; */
+    /* background-color: #091FB6; */
+    /* background-image: url("../../Components/img/background.jfif"); */
+}
+
+.cardform {
+    margin-top: 0px;
+}
+
+.colcontrol {
+    align-items: center;
+    justify-content: center;
+    width: 75%;
+}
+
+.h1 {
+    margin-top: 70px;
+    margin-bottom: 20px;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+
+/* 
+.text {
+    textw
+} */
+
+.Imagecon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image {
+    display: flex;
+    margin-top: 60px;
+    margin-left: 15px;
+    width: 10%;
+    align-items: center;
+    justify-content: center;
+}
+
+.buttons {
+    text-decoration: none;
+}
+
+.button_two {
+    margin-left: 50px;
+    text-decoration: none;
+}
+
+@media only screen and (max-width:500px) {
+    .buttons {
+        justify-content: center;
+        align-items: center;
+        margin-left: 2px;
+        margin-top: 5px;
+    }
+    .image {
+        display: flex;
+        margin-top: 80px;
+        margin-left: 40px;
+        width: 44%;
+        align-items: center;
+        justify-content: center;
+    }
+    .button_two {
+        justify-content: center;
+        align-items: center;
+        margin-left: 2px;
+        margin-top: 15px;
+    }
+    .buttonContainer {
+        display: flex;
+        flex-direction: column;
+    }
+}
